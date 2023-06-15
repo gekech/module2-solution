@@ -1,31 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/style.css">
-  <title>Responsive Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Page</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
-  <header>
-    <h1>Page Heading</h1>
-  </header>
-  <section class="container">
-    <div class="section-item">
-      <div class="section-title">Chicken</div>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-    </div>
-    <div class="section-item">
-      <div class="section-title">Beef</div>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-    </div>
-    <div class="section-item">
-      <div class="section-title">Sushi</div>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-    </div>
-  </section>
-</body>
+<header>
+    <h1>Dishes and history</h1>
+</header>
 
+<main>
+    <section>
+        <div class="section-title">Chicken</div>
+        <p>This is a list of chicken dishes.
+            Chicken is the most common type of poultry in the world,
+            and was one of the first domesticated animals.
+            Chicken is a major worldwide source of meat and eggs for human
+            consumption. It is prepared as food in a wide variety of ways,
+            varying by region and culture. The.</p>
+    </section>
+
+    <section>
+        <div class="section-title">Beef</div>
+        <p>Beef has long been the most famous version: Pierre Larousse’s Grand
+            Dictionnaire Universel du XIXe Siècle (‘Great Universal Dictionary
+            of the 19th Century’), first published in 1867, defines ‘bourguignon’
+            in culinary parlance as referring to ‘many things</p>
+    </section>
+
+    <section>
+        <div class="section-title">Sushi</div>
+        <p>Now that the fermentation had been cut down, it was not long
+            before someone started to wonder whether it was necessary at all.
+            Although it had fulfilled a valuable function on the banks
+            of the Mekong and the Yangtze, its utility was less obvious in Japan. </p>
+    </section>
+</main>
+</body>
 </html>
